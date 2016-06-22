@@ -18,9 +18,9 @@ UCS-4: Same as UCS-2, but 4 bytes per glyph. UCS-2 cannot hold the full range of
 ## C++11
 As said above this code becomes obsolete in C++11 and something like the following should be used instead.
 
-#include <locale>
+\#include <locale>
 
-#include <codecvt>
+\#include <codecvt>
 
 std::string wstringToUtf8(const std::wstring& str)
 
