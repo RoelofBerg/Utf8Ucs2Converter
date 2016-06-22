@@ -7,6 +7,9 @@
 * Please contribute on:
 * https://github.com/RoelofBerg/Utf8Ucs2Converter
 *
+* This was written for C++98 compilers. If your compiler supports C++11 you can better use
+* codecvt_utf8, as shown in the readme-file on above's github project.
+* 
 * License:
 * Just do what you want with this code and please contribute if you find some improvement.
 *
