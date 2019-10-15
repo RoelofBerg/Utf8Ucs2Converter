@@ -1,9 +1,7 @@
 # Utf8Ucs2Converter
 C++ methods for converting between UTF-8 std::string and UCS-2 std::wstring (c++98 compatible)
 
-If you want to convert a UTF-8 string into UCS-2 and/or vice versa with a C++98 compiler (so no C++11 or better is available),
-this code will do the word with little prerequisites. Please note that boost utf_to_utf() is not suitable for UTF-8 from/to
-UCS-2 conversion because it converts to/from UTF-8 to/from UTF-16 which is a different encoding.
+If you want to convert a UTF-8 string into UCS-2 and/or vice versa with a C++98 compiler (i.e. when no C++11 or better support is available in your environment - which does happen sometimes esp. in legacy Embedded Systtem's toolchains), this code will do the work with little prerequisites. Please note that boost utf_to_utf() is not suitable for UTF-8 from/to UCS-2 conversion because it converts to/from UTF-8 to/from UTF-16 which is a different encoding.
 
 ## Supported string formats:
 UTF-8: A bytestream where 1 or more bytes encode one particular glyph.
